@@ -3,6 +3,50 @@
     "name": "i18next"
   },
   "nav": {
-    "home": "Inicio"
+    "home": "Inicio",
+    "services": "Servicios",
+    "gestoria": "Gestoría"
+  },
+
+  "cucerodi": {
+  	"index": "Les damos la bienvenida a nuestra página web, en la que, encontrará toda la información que necesiten acerca de nuestras actividades.",
+	"welcome": "Entre los objetivos generales de 41CERO10 ASESORES está la de participar y potenciar el desarrollo de la economía social. Ofrecemos un servicio de alta calidad a un precio muy competitivo y personalizado, eso sólo es posible gracias al esfuerzo de los profesionales de la empresa y a las ganas de superación de todos los empleados que la integran. Además, con la garantía de que toda su información será tratada con absoluta confidencialidad. Para nosotros todos nuestros clientes son importantes. Por eso, en nuestro despacho, damos un servicio directo y personalizado a todos ellos, desde nuestros autónomos hasta las pequeñas y medianas empresas. Los profesionales que integran 41CERO10 apuestan por su formación permanente para poder así prestar un mayor y mejor servicio.",
+  	"button1": "¿Quiénes somos?",
+  	"button2": "¿Dónde estamos?",
+  	"services": "Servicios",
+  	"ser_fiscal": "Asesoría Fiscal",
+  	"ser_laboral": "Asesoría Laboral",
+  	"ser_contable": "Asesoría Contable",
+  	"ser_otros": "Otros servicios"
+  },
+
+  "fiscal": {
+  	"ser1": "Fiscalidad de PYMES y autónomos",
+  	"ser2": "IVA, Impuestos sobre sociedades",
+  	"ser3": "IRPF, Impuestos sobre las personas físicas",
+  	"ser4": "Asistencia técnica ante inspecciones de Hacienda"
+  },
+
+  "laboral": {
+  	"ser1": "Confección de nóminas",
+  	"ser2": "Cotizaciones de la Seguridad Social",
+  	"ser3": "Contratos. Partes del Altas y Bajas",
+  	"ser4": "Liquidaciones y Finiquitos"
+  },
+
+  "contable": {
+  	"ser1": "Contabilidad Analítica",
+  	"ser2": "Contabilidad Financiera",
+  	"ser3": "Actualización de contabilidades atrasadas",
+  	"ser4": "Confección y Análisis de Balance"
+  },
+
+  "otros": {
+  	"ser1": "Tramitaciones de Subvenciones",
+  	"ser2": "Creaciones de empresas, Cooperativas, Altas de autónomos…",
+  	"ser3": "Informes periciales",
+  	"ser4": "Administraciones de Fincas",
+  	"ser5": "LOPD"
   }
+
 }
