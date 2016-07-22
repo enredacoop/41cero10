@@ -5,19 +5,32 @@
   "nav": {
     "home": "Inicio",
     "asesoria": "Asesoría",
-    "gestoria": "Gestoría"
+    "gestoria": "Gestoría",
+    "testimonials": "Opiniones",
+    "precios": "Precios",
+    "equipo": "Equipo",
+    "clientes": "Clientes",
+    "contacto": "Contacto"
   },
 
   "cucerodi": {
   	"index": "Les damos la bienvenida a nuestra página web, en la que, encontrará toda la información que necesiten acerca de nuestras actividades.",
     "welcome": "Entre los objetivos generales de 41CERO10 ASESORES está la de participar y potenciar el desarrollo de la economía social. Ofrecemos un servicio de alta calidad a un precio muy competitivo y personalizado, eso sólo es posible gracias al esfuerzo de los profesionales de la empresa y a las ganas de superación de todos los empleados que la integran. Además, con la garantía de que toda su información será tratada con absoluta confidencialidad. Para nosotros todos nuestros clientes son importantes. Por eso, en nuestro despacho, damos un servicio directo y personalizado a todos ellos, desde nuestros autónomos hasta las pequeñas y medianas empresas. Los profesionales que integran 41CERO10 apuestan por su formación permanente para poder así prestar un mayor y mejor servicio.",
-  	"button1": "¿Quiénes somos?",
+  	"button1": "¿Donde estamos?",
   	"button2": "Área privada",
   	"services": "Servicios",
   	"ser_fiscal": "Asesoría Fiscal",
   	"ser_laboral": "Asesoría Laboral",
   	"ser_contable": "Asesoría Contable",
-  	"ser_otros": "Otros servicios"
+  	"ser_otros": "Otros servicios",
+  	"localizacion": "Nos encontramos situados en una zona estratégica dentro de la ciudad de Sevilla, en el barrio de Triana, junto a República Argentina, a unos 20mts del Colegio Maristas de Sevilla. Con una gran comunicación de servicios públicos, a sólo 100mts de la salida del metro de Plaza de Cuba."
+  },
+
+  "cucerodi-loc": {
+  	"title": "Contacta con nosotros",
+  	"name": "Calle Gabriela Sánchez Aranda, 5A-Local, 41010 Sevilla",
+	"phone": "955 311 901",
+	"email": "info@41cero10.org"
   },
 
   "fiscal": {
@@ -49,8 +62,8 @@
   	"ser5": "LOPD"
   },
 
-    "gesficom": {
-    "index": ".La mejor gestión para su comunidad.",
+  "gesficom": {
+    "index": "La mejor gestión para su comunidad.",
     "welcome": "Excelentes servicios a un precio sin competencia. Somos una empresa cuyo objetivo es gestionar a buen precio su comunidad de propietarios y en definitiva, hacerte la vida más fácil. A través de nuestra página web puede acceder a la cuenta de su comunidad y a todas sus actas y documentos. Así, con las cuentas claras, ahorrando en recursos humanos y con una herramienta informática que nosotros le facilitamos, tendrá el control en tiempo real y la garantía de la transparencia de la cuenta comunitaria.",
     "button1": "Solicita tu presupuesto",
     "button2": "Accede a tu comunidad",
@@ -59,6 +72,50 @@
     "ser_laboral": "Asesoría Laboral",
     "ser_contable": "Asesoría Contable",
     "ser_otros": "Otros servicios"
-  }
+  },
 
+  "gesficom-loc": {
+  	"title": "Contacta con nosotros",
+  	"name": "Calle Gabriela Sánchez Aranda, 5A-Local, 41010 Sevilla",
+	"phone": "615 92 05 01",
+	"email": "administracion@gesficom.com"
+  },
+
+  "gesficom-acceso": {
+ 	"title": "Zona de acceso a su comunidad",
+ 	"info": "Desde este enlace abrirá la Gestión de su comunidad. Tenga preparado el nombre de usuario y la contraseña que le hemos proporcionado como administradores."
+  },
+
+  "gesficom-presupuesto": {
+  	"title":" Solicita tu presupuesto",
+  	"tipo1": "Si desea solicitar un presupuesto, o contactar con GESFICOM , rellene el siguiente formulario.",
+  	"tipo2": "Si desea un presupuesto, rellene el formulario completo.",
+  	"tipo3": "Si quiere hacer una pregunta, o simplemente contactar, rellene la parte personal."
+  },
+
+  "testimonials": {
+  	"title": "¿Qué dicen nuestros clientes?"
+  },
+
+  "precios": {
+  	"title": "Precios"
+  },
+
+  "equipo": {
+  	"title": "¿Quiénes somos?"
+  },
+
+  "clientes": {
+  	"title": "Nuestros clientes"
+  },
+
+  "contacto": {
+  	"title": "Contacta con nosotros",
+  	"info": "¿Quieres saber más sobre nosotros? Rellena el formulario y nos pondremos en contacto con usted tan pronto como nos sea posible.",
+  	"message": "Mensaje",
+  	"subject": "Asunto del mensaje",
+  	"name": "Nombre",
+  	"email": "Correo electrónico",
+  	"send": "Enviar"
+  }
 }
