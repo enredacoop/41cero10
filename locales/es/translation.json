@@ -4,15 +4,15 @@
   },
   "nav": {
     "home": "Inicio",
-    "services": "Servicios",
+    "asesoria": "Asesoría",
     "gestoria": "Gestoría"
   },
 
   "cucerodi": {
   	"index": "Les damos la bienvenida a nuestra página web, en la que, encontrará toda la información que necesiten acerca de nuestras actividades.",
-	"welcome": "Entre los objetivos generales de 41CERO10 ASESORES está la de participar y potenciar el desarrollo de la economía social. Ofrecemos un servicio de alta calidad a un precio muy competitivo y personalizado, eso sólo es posible gracias al esfuerzo de los profesionales de la empresa y a las ganas de superación de todos los empleados que la integran. Además, con la garantía de que toda su información será tratada con absoluta confidencialidad. Para nosotros todos nuestros clientes son importantes. Por eso, en nuestro despacho, damos un servicio directo y personalizado a todos ellos, desde nuestros autónomos hasta las pequeñas y medianas empresas. Los profesionales que integran 41CERO10 apuestan por su formación permanente para poder así prestar un mayor y mejor servicio.",
+    "welcome": "Entre los objetivos generales de 41CERO10 ASESORES está la de participar y potenciar el desarrollo de la economía social. Ofrecemos un servicio de alta calidad a un precio muy competitivo y personalizado, eso sólo es posible gracias al esfuerzo de los profesionales de la empresa y a las ganas de superación de todos los empleados que la integran. Además, con la garantía de que toda su información será tratada con absoluta confidencialidad. Para nosotros todos nuestros clientes son importantes. Por eso, en nuestro despacho, damos un servicio directo y personalizado a todos ellos, desde nuestros autónomos hasta las pequeñas y medianas empresas. Los profesionales que integran 41CERO10 apuestan por su formación permanente para poder así prestar un mayor y mejor servicio.",
   	"button1": "¿Quiénes somos?",
-  	"button2": "¿Dónde estamos?",
+  	"button2": "Área privada",
   	"services": "Servicios",
   	"ser_fiscal": "Asesoría Fiscal",
   	"ser_laboral": "Asesoría Laboral",
@@ -47,6 +47,18 @@
   	"ser3": "Informes periciales",
   	"ser4": "Administraciones de Fincas",
   	"ser5": "LOPD"
+  },
+
+    "gesficom": {
+    "index": ".La mejor gestión para su comunidad.",
+    "welcome": "Excelentes servicios a un precio sin competencia. Somos una empresa cuyo objetivo es gestionar a buen precio su comunidad de propietarios y en definitiva, hacerte la vida más fácil. A través de nuestra página web puede acceder a la cuenta de su comunidad y a todas sus actas y documentos. Así, con las cuentas claras, ahorrando en recursos humanos y con una herramienta informática que nosotros le facilitamos, tendrá el control en tiempo real y la garantía de la transparencia de la cuenta comunitaria.",
+    "button1": "Solicita tu presupuesto",
+    "button2": "Accede a tu comunidad",
+    "services": "Servicios",
+    "ser_fiscal": "Asesoría Fiscal",
+    "ser_laboral": "Asesoría Laboral",
+    "ser_contable": "Asesoría Contable",
+    "ser_otros": "Otros servicios"
   }
 
 }
