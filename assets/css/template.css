@@ -6426,3 +6426,32 @@ img {
 .col-md-4 ul{
 	padding: 0;
 }
+
+.cerodiez.section {
+    text-align: center;
+    background-color: #0388b7;
+    color: #fff;
+}
+.cerodiez .section-title span{
+background: none;
+
+}
+
+.cerodiez .section-title:after {
+    height: 0px;
+    background: none;
+}
+
+ul.servicelist {
+    padding: 10px;
+    text-align: left;
+    list-style-type: circle;
+}
+
+#services .icon-wrap {
+    margin-left: 20px;
+}
+
+#services .section-center {
+    text-align: left;
+}
