@@ -30,7 +30,9 @@
   	"title": "Contacta con nosotros",
   	"name": "Calle Gabriela Sánchez Aranda, 5A-Local, 41010 Sevilla",
 	"phone": "955 311 901",
-	"email": "info@41cero10.org"
+	"email": "info@41cero10.org",
+	"about": "Sobre nosotros",
+	"aboutinfo": "41CERO10 ASESORES es una gestoría y asesoría contable, fiscal y laboral, que presta sus servicios a entidades de economía social (cooperativas, sociedades laborales, organizaciones sin fines de lucro), autónomos y PYMES y emprendedores y particulares."
   },
 
   "fiscal": {
