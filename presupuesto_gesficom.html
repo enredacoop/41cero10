@@ -83,334 +83,164 @@
             <i class="fa fa-check"> <span data-i18n="gesficom-presupuesto.tipo2"></span></i><br />
             <i class="fa fa-check"> <span data-i18n="gesficom-presupuesto.tipo3"></span></i><br />
             <div class="main-action">
-            <form action="presupuesto_b.php" method="post">
-
-
-
-                    <table class="texto_normal">
-                    <tr style="height: 30px;">
-                        <td class="texto_mas">
-                        Datos de la comunidad
-                        </td>
-                        <td><hr style="border: 2px solid #6699ff;"/></td>
-                    </tr>                    
-                    <tr>
-                      <td style="vertical-align: top;">
-                        Dirección completa
-                        </td>
-                      <td>
-                        
-                        <input type="text"
-                               name="direccion"
-                               id="user" 
-                               autofocus="autofocus"
-                               placeholder="Dirección de la FINCA "
-                               title="Dirección de la FINCA" 
-                               style="width:350px; "
-                               maxlength="200"
-                               tabindex="1" 
-                               onkeypress="return tabular(event,this)"/>
-                                               
-                        </td>
-                    </tr>
-                    
-                    <tr>
-                      <td style="vertical-align: top;">
-                        Distrito Postal
-                        </td>
-                      <td class="texto_pk">
-                        <input type="text"
-                               name="dp"
-                               id="dp"  
-                               placeholder="Distrito postal de la Dirección de la FINCA "
-                               title="Distrito postal de la Dirección de la FINCA" 
-                               style="width:70px; "
-                               maxlength="5"
-                               tabindex="2" 
-                               onkeypress="return tabular(event,this)" 
-                               onkeydown="soloNumeros(event)" />                                       
-                          (solo números)      
-                        </td>
-                    </tr>
-                    <tr>
-                      <td style="vertical-align: top;">
-                        Población
-                        </td>
-                      <td>
-                        <input type="text"
-                               name="poblacion"
-                               id="poblacion"  
-                               placeholder="Población de la Dirección de la FINCA "
-                               title="Población de la Dirección de la FINCA" 
-                               style="width:350px; "
-                               maxlength="150"
-                               tabindex="3" 
-                               onkeypress="return tabular(event,this)" />                                       
-     
-                        </td>
-                    </tr>                    
-                     <tr>
-                      <td style="vertical-align: top;">
-                        Provincia
-                        </td>
-                      <td>
-                        <input type="text"
-                               name="provincia"
-                               id="provincia"  
-                               placeholder="Provincia de la Dirección de la FINCA "
-                               title="Provincias de la Dirección de la FINCA" 
-                               style="width:100px; "
-                               maxlength="30"
-                               tabindex="4" 
-                               onkeypress="return tabular(event,this)" />                                       
-        
-                        </td>
-                    </tr> 
-                    <tr>
-                      <td style="vertical-align: top;">
-                        NºDe vivienda
-                        </td>
-                      <td class="texto_pk">
-                        <input type="text"
-                               name="viviendas"
-                               id="viviendas"  
-                               placeholder="Número de Viviendas "
-                               title="Número de Viviendas" 
-                               style="width:50px; "
-                               maxlength="5"
-                               tabindex="5" 
-                               onkeypress="return tabular(event,this)" 
-                               onkeydown="soloNumeros(event)" />                                       
-                          (solo números)      
-                        </td>
-                    </tr>                    
-                     <tr>
-                      <td style="vertical-align: top;">
-                        NºDe naves
-                        </td>
-                      <td class="texto_pk">
-                        <input type="text"
-                               name="naves"
-                               id="naves"  
-                               placeholder="Número de naves "
-                               title="Número de naves" 
-                               style="width:50px; "
-                               maxlength="5"
-                               tabindex="6" 
-                               onkeypress="return tabular(event,this)" 
-                               onkeydown="soloNumeros(event)" />                                       
-                          (Poligonos Industriales)(solo números)      
-                        </td>
-                    </tr>                     
-                    
-                     <tr>
-                      <td style="vertical-align: top;">
-                        NºDe plazas de aparcamientos
-                        </td>
-                      <td class="texto_pk">
-                        <input type="text"
-                               name="aparca"
-                               id="aparca"  
-                               placeholder="Número de plazas de aparcamiento"
-                               title="Número de plazas de aparcamiento" 
-                               style="width:50px; "
-                               maxlength="5"
-                               tabindex="7" 
-                               onkeypress="return tabular(event,this)" 
-                               onkeydown="soloNumeros(event)" />                                       
-                          (solo números)      
-                        </td>
-                    </tr>
-                                        
-                     <tr>
-                      <td style="vertical-align: top;">
-                        NºDe asociados o propietarios
-                        </td>
-                      <td class="texto_pk">
-                        <input type="text"
-                               name="propietarios"
-                               id="propietarios"  
-                               placeholder="Número de propietarios"
-                               title="Número de propietarios" 
-                               style="width:50px; "
-                               maxlength="5"
-                               tabindex="8" 
-                               onkeypress="return tabular(event,this)" 
-                               onkeydown="soloNumeros(event)" />                                       
-                           (solo números)      
-                        </td>
-                    </tr> 
-                    
-                      <tr>
-                      <td style="vertical-align: top;">
-                        NºDe locales comerciales
-                        </td>
-                      <td class="texto_pk">
-                        <input type="text"
-                               name="locales"
-                               id="locales"  
-                               placeholder="Número "
-                               title="Número de locales comerciales" 
-                               style="width:50px; "
-                               maxlength="5"
-                               tabindex="9" 
-                               onkeypress="return tabular(event,this)" 
-                               onkeydown="soloNumeros(event)" />                                       
-                           (solo números)      
-                        </td>
-                    </tr>                    
-                     
-                      <tr>
-                      <td style="vertical-align: top;">
-                        NºDe personal contratado
-                        </td>
-                      <td class="texto_pk">
-                        <input type="text"
-                               name="personal"
-                               id="personal"  
-                               placeholder="Número "
-                               title="Número de personal contratado, jardinero, portero,...." 
-                               style="width:50px; "
-                               maxlength="5"
-                               tabindex="10" 
-                               onkeypress="return tabular(event,this)" 
-                               onkeydown="soloNumeros(event)" />                                       
-                           (solo números)      
-                        </td>
-                    </tr>   
-                                     
-                      <tr>
-                      <td style="vertical-align: top;">
-                        Zonas comunes
-                        </td>
-                      <td>
-                        <input type="text"
-                               name="zonas"
-                               id="zonas"  
-                               placeholder="Zonas comunes, jardines, piscina,ascensor...etc"
-                               title="Zonas comunes, jardines, piscina,ascensor...etc" 
-                               style="width:350px; "
-                               maxlength="200"
-                               tabindex="11" 
-                               onkeypress="return tabular(event,this)"  />                                       
-                              
-                        </td>
-                    </tr>                                                           
-
-                    <tr style="height: 30px;">
-                        <td class="texto_mas">
-                         Datos Personales
-                        </td>
-                        <td><hr style="border: 2px solid #6699ff;"/></td>
-                    </tr>                     
-                       <tr>
-                      <td style="vertical-align: top;">
-                        Persona de contacto <span class="text_R">(*)</span>
-                        </td>
-                      <td>
-                        <input type="text"
-                               name="contacto"
-                               id="contacto"  
-                               placeholder="Nombre de la persona de contacto"
-                               title="Nombre de la persona de contacto" 
-                               style="width:350px; "
-                               required="required"
-                               maxlength="200"
-                               tabindex="12" 
-                               onkeypress="return tabular(event,this)"  />                                       
-                              
-                        </td>
-                    </tr> 
-                    
-                       <tr>
-                      <td style="vertical-align: top;">
-                        Correo Elct. de contacto <span class="text_R">(*)</span>
-                        </td>
-                      <td>
-                        <input type="email"
-                               name="correo"
-                               id="correo"  
-                               placeholder="correo electrónico de la persona de contacto"
-                               title="correo electrónico de la persona de contacto" 
-                               style="width:350px; "
-                               maxlength="200"
-                               required="required" 
-                               tabindex="13" 
-                               onkeypress="return tabular(event,this)"  />                                       
-                              
-                        </td>
-                    </tr> 
-                       <tr>
-                      <td style="vertical-align: top;">
-                        Un teléfono de contacto
-                        </td>
-                      <td>
-                        <input type="text"
-                               name="telefono"
-                               id="telefono"  
-                               placeholder="Teléfono de la persona de contacto"
-                               title="Teléfono de la persona de contacto" 
-                               style="width:350px; "
-                               maxlength="200"
-                               tabindex="14" 
-                               onkeypress="return tabular(event,this)"  />                                       
-                              
-                        </td>
-                    </tr>                    
-                    
-                       <tr>
-                      <td style="vertical-align: top;">
-                        Comentario<br />
-                        Tipo de presupuesto...
-                        </td>
-                      <td>
-                              <textarea style="width: 350px; height: 100px;" 
-                                         name="notas" 
-                                    maxlength="400" 
-                                     tabindex="15"  
-                                     placeholder="Comentario, ptegunta,, tipo de contrato... "></textarea>                                       
-                              
-                        </td>
-                    </tr> 
-                    
-                    
-                       <tr>
-                      <td style="vertical-align: top;">
-                        <span class="text_R">(*)=Datos obligatorios</span> 
-                        </td>
-                      <td>
-                  <input type="submit" value="Enviar" />
-                        </td>
-                    </tr>                     
-                    
-                    
-                                         
-                    </table>
-
-</form>
                <form method="post" action="contact.php" name="contactform" id="contactform">
-                <div class="results"></div>
-                <div class="row">
-                  <div class="col-sm-6">
+                <div class="row"></div>
+                  <div class="col-sm-12">
+                      <h3 data-i18n="gesficom-presupuesto.comunidad"></h3>
+                 </div>
+                 <div class="col-md-2">
+                      <strong data-i18n="gesficom-presupuesto.direccion"></strong>
+                 </div>
+                  <div class="col-sm-10">
                     <div class="form-group">
                       <label class="sr-only"></label>
-                      <textarea name="message" class="form-control" data-i18n="[placeholder]contacto.message" placeholder="" style="height: 181px" rows="6" required></textarea>
+                      <input name="subject" type="text" class="form-control" data-i18n="[placeholder]gesficom-presupuesto.direccion" placeholder="" required>
                     </div>
                   </div>
-                  <div class="col-sm-6">
+
+                 <div class="col-md-2">
+                      <strong data-i18n="gesficom-presupuesto.distrito"></strong>
+                 </div>
+                  <div class="col-sm-10">
+                    <div class="form-group">
+                      <label class="sr-only"></label>
+                      <input name="subject" type="number" class="form-control" data-i18n="[placeholder]contacto.subject" placeholder="" required style="-moz-appearance: textfield">
+                    </div>
+                  </div>
+
+                 <div class="col-md-2">
+                      <strong data-i18n="gesficom-presupuesto.poblacion"></strong>
+                 </div>
+                  <div class="col-sm-10">
                     <div class="form-group">
                       <label class="sr-only"></label>
                       <input name="subject" type="text" class="form-control" data-i18n="[placeholder]contacto.subject" placeholder="" required>
                     </div>
+                  </div>
+
+                 <div class="col-md-2">
+                      <strong data-i18n="gesficom-presupuesto.provincia"></strong>
+                 </div>
+                  <div class="col-sm-10">
                     <div class="form-group">
                       <label class="sr-only"></label>
-                      <input name="name" type="text" class="form-control" data-i18n="[placeholder]contacto.name" placeholder="" required>
+                      <input name="subject" type="text" class="form-control" data-i18n="[placeholder]contacto.subject" placeholder="" required>
                     </div>
+                  </div>
+
+                 <div class="col-md-2">
+                      <strong data-i18n="gesficom-presupuesto.vivienda"></strong>
+                 </div>
+                  <div class="col-sm-10">
                     <div class="form-group">
                       <label class="sr-only"></label>
-                      <input name="email" type="email" class="form-control" data-i18n="[placeholder]contacto.email" placeholder="" required>
+                      <input name="subject" type="text" class="form-control" data-i18n="[placeholder]contacto.subject" placeholder="" required>
                     </div>
+                  </div>
+
+                 <div class="col-md-2">
+                      <strong data-i18n="gesficom-presupuesto.nave"></strong>
+                 </div>
+                  <div class="col-sm-10">
                     <div class="form-group">
+                      <label class="sr-only"></label>
+                      <input name="subject" type="text" class="form-control" data-i18n="[placeholder]contacto.subject" placeholder="" required>
+                    </div>
+                  </div>
+
+                 <div class="col-md-2">
+                      <strong data-i18n="gesficom-presupuesto.aparcamientos"></strong>
+                 </div>
+                  <div class="col-sm-10">
+                    <div class="form-group">
+                      <label class="sr-only"></label>
+                      <input name="subject" type="text" class="form-control" data-i18n="[placeholder]contacto.subject" placeholder="" required>
+                    </div>
+                  </div>
+
+                 <div class="col-md-2">
+                      <strong data-i18n="gesficom-presupuesto.propietarios"></strong>
+                 </div>
+                  <div class="col-sm-10">
+                    <div class="form-group">
+                      <label class="sr-only"></label>
+                      <input name="subject" type="text" class="form-control" data-i18n="[placeholder]contacto.subject" placeholder="" required>
+                    </div>
+                  </div>
+
+                 <div class="col-md-2">
+                      <strong data-i18n="gesficom-presupuesto.locales"></strong>
+                 </div>
+                  <div class="col-sm-10">
+                    <div class="form-group">
+                      <label class="sr-only"></label>
+                      <input name="subject" type="text" class="form-control" data-i18n="[placeholder]contacto.subject" placeholder="" required>
+                    </div>
+                  </div>
+
+                 <div class="col-md-2">
+                      <strong data-i18n="gesficom-presupuesto.personal"></strong>
+                 </div>
+                  <div class="col-sm-10">
+                    <div class="form-group">
+                      <label class="sr-only"></label>
+                      <input name="subject" type="text" class="form-control" data-i18n="[placeholder]contacto.subject" placeholder="" required>
+                    </div>
+                  </div>
+
+                 <div class="col-md-2">
+                      <strong data-i18n="gesficom-presupuesto.comunes"></strong>
+                 </div>
+                  <div class="col-sm-10">
+                    <div class="form-group">
+                      <label class="sr-only"></label>
+                      <input name="subject" type="text" class="form-control" data-i18n="[placeholder]contacto.subject" placeholder="" required>
+                    </div>
+                  </div>
+                  <div class="col-sm-12">
+                      <h3 data-i18n="gesficom-presupuesto.personales"></h3>
+                 </div>
+                 <div class="col-md-2">
+                      <strong data-i18n="gesficom-presupuesto.contacto"></strong>
+                 </div>
+                  <div class="col-sm-10">
+                    <div class="form-group">
+                      <label class="sr-only"></label>
+                      <input name="subject" type="text" class="form-control" data-i18n="[placeholder]contacto.subject" placeholder="" required>
+                    </div>
+                  </div>
+
+                 <div class="col-md-2">
+                      <strong data-i18n="gesficom-presupuesto.correo"></strong>
+                 </div>
+                  <div class="col-sm-10">
+                    <div class="form-group">
+                      <label class="sr-only"></label>
+                      <input name="subject" type="text" class="form-control" data-i18n="[placeholder]contacto.subject" placeholder="" required>
+                    </div>
+                  </div>
+
+                 <div class="col-md-2">
+                      <strong data-i18n="gesficom-presupuesto.telefono"></strong>
+                 </div>
+                  <div class="col-sm-10">
+                    <div class="form-group">
+                      <label class="sr-only"></label>
+                      <input name="subject" type="text" class="form-control" data-i18n="[placeholder]contacto.subject" placeholder="" required>
+                    </div>
+                  </div>
+
+                 <div class="col-md-2">
+                      <strong data-i18n="gesficom-presupuesto.comentario"></strong>
+                 </div>
+                  <div class="col-sm-10">
+                    <div class="form-group">
+                      <label class="sr-only"></label>
+                      <textarea name="subject" type="text" class="form-control" data-i18n="[placeholder]contacto.subject" placeholder="" required></textarea>
+                    </div>
+                  </div>
+
+                  <div class="form-group">
                       <div class="row">
                         <div class="col-md-3 col-sm-3 col-xs-12">
                           <img src="image.php" alt="Image verification" class="captcha-image">

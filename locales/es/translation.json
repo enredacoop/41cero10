@@ -90,7 +90,24 @@
   	"title":" Solicita tu presupuesto",
   	"tipo1": "Si desea solicitar un presupuesto, o contactar con GESFICOM , rellene el siguiente formulario.",
   	"tipo2": "Si desea un presupuesto, rellene el formulario completo.",
-  	"tipo3": "Si quiere hacer una pregunta, o simplemente contactar, rellene la parte personal."
+  	"tipo3": "Si quiere hacer una pregunta, o simplemente contactar, rellene la parte personal.",
+    "comunidad": "Datos de la comunidad",
+    "direccion": "Dirección completa",
+    "distrito": "Distrito postal",
+    "poblacion": "Población",
+    "provincia": "Provincia",
+    "vivienda": "Número de vivienda",
+    "nave": "Número de naves",
+    "aparcamientos": "Número de plazas de aparcamiento",
+    "propietarios": "Número de asociados o propietarios",
+    "locales": "Número de locales comerciales",
+    "personal": "Número de personal contratado",
+    "comunes": "Zonas comunes",
+    "personales": "Datos personales",
+    "contacto": "Persona de contacto",
+    "correo": "Correo electrónico de contacto",
+    "telefono": "Teléfono de contacto",
+    "comentario": "Comentario"
   },
 
   "testimonials": {
