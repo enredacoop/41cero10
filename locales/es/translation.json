@@ -16,7 +16,7 @@
   "cucerodi": {
   	"index": "Les damos la bienvenida a nuestra página web, en la que, encontrará toda la información que necesiten acerca de nuestras actividades.",
     "welcome": "Entre los objetivos generales de 41CERO10 ASESORES está la de participar y potenciar el desarrollo de la economía social. Ofrecemos un servicio de alta calidad a un precio muy competitivo y personalizado, eso sólo es posible gracias al esfuerzo de los profesionales de la empresa y a las ganas de superación de todos los empleados que la integran. Además, con la garantía de que toda su información será tratada con absoluta confidencialidad. Para nosotros todos nuestros clientes son importantes. Por eso, en nuestro despacho, damos un servicio directo y personalizado a todos ellos, desde nuestros autónomos hasta las pequeñas y medianas empresas. Los profesionales que integran 41CERO10 apuestan por su formación permanente para poder así prestar un mayor y mejor servicio.",
-  	"button1": "¿Donde estamos?",
+  	"button1": "Ofertas",
   	"button2": "Área privada",
   	"services": "Servicios",
   	"ser_fiscal": "Asesoría Fiscal",
@@ -68,10 +68,21 @@
     "button1": "Solicita tu presupuesto",
     "button2": "Accede a tu comunidad",
     "services": "Servicios",
-    "ser_fiscal": "Asesoría Fiscal",
-    "ser_laboral": "Asesoría Laboral",
-    "ser_contable": "Asesoría Contable",
-    "ser_otros": "Otros servicios"
+    "fincas": "Servicios de administración de fincas",
+    "como": "¿Cómo?",
+    "despacho": "Despacho online",
+    "ser_otros": "Otros servicios",
+    "despachoinfo": "Todos los propietarios registrados en nuestra web podrán conocer en tiempo real el estado de la comunidad, consultar o descargar informes de ingresos y gastos de su comunidad, dispondrán de formularios para notificarnos cualquier avería o incidencia detectada en su comunidad y podrán notificarnos el cambio de domiciliación de recibos con tres días de antelación a la realización del mismo.",
+    "comoinfo": "Estudiamos sus costes actuales y renegociamos o sustituimos los proveedores. Servicios Web -¡Online 24 horas! Exclusivo para los propietarios.",
+ 	"fincas_ser1": "Constituimos la Comunidad de vecinos",
+ 	"fincas_ser2": "Legalizamos del Libro de Actas",
+ 	"fincas_ser3": "Emitimos y gestionamos los recibos mensuales",
+ 	"fincas_ser4": "Pueden consultar online el estado de las cuentas y registro de incidencias las 24 horas del día",
+ 	"fincas_ser5": "Redactamos y enviamos las Actas de las Juntas de la Comunidad a todos los propietarios",
+ 	"fincas_ser6": "Administramos las nóminas y seguros sociales de los empleados de la comunidad",
+ 	"fincas_ser7": "Tramitamos y solucionamos los siniestros mediante un seguimiento continuo",
+ 	"fincas_ser8": "Asesoramos sobre el Certificado de Eficiencia Energética (Obligatorio desde el 1 de junio para pisos en venta y alquiler"
+
   },
 
   "gesficom-loc": {
