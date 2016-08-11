@@ -1610,6 +1610,7 @@ pre code {
     margin-left: auto;
     padding-left: 15px;
     padding-right: 15px;
+    padding-bottom: 10px;
 }
 @media (min-width:768px) {
     .container {
@@ -5690,7 +5691,7 @@ img {
     background-attachment: fixed;
 }
 .section {
-    padding: 60px 0;
+    padding: 10px 0;
 }
 @media (max-width:991px) {
     .section {
@@ -5748,7 +5749,7 @@ img {
     margin: 0 auto;
 }
 .section.section-features p {
-    margin-bottom: 60px;
+    margin-bottom: 10px;
 }
 @media (max-width:991px) {
     .section.section-features p {
@@ -6442,6 +6443,22 @@ background: none;
     background: none;
 }
 
+.gesficom.section {
+    text-align: center;
+    background-color: #0388b7;
+    color: #fff;
+}
+.gesficom .section-title span{
+background: none;
+
+}
+
+.gesficom .section-title:after {
+    height: 0px;
+    background: none;
+}
+
+
 ul.servicelist {
     padding: 10px;
     text-align: left;
@@ -6467,7 +6484,18 @@ ul.servicelist {
     font-family: monospace;
 }
 
+p.text-slide {
+    color: white;
+    font-size: 20px;
+    background-color: rgb(3, 136, 183);
+    margin-top: 15%;
+    margin-bottom: 15%;
+    line-height: 1.2;
+}
+
 @media (max-width:995px) {
     h1.navbar-brand {
     height: 80%;
+    }
 }
+

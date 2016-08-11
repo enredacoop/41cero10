@@ -3,19 +3,19 @@
     "name": "i18next"
   },
   "nav": {
-    "home": "Inicio",
     "asesoria": "Asesoría",
-    "gestoria": "Gestoría",
-    "testimonials": "Opiniones",
-    "precios": "Precios",
-    "equipo": "Equipo",
-    "clientes": "Clientes",
-    "contacto": "Contacto"
+    "contacto": "Contacto",
+    "admin": "Administración de fincas"
+  },
+
+  "slide": {
+  	"text1": "Asesoramiento y gestión integral de su negocio. ¿Quieres estar tranquilo con Hacienda y Seguridad Social? En 41CERO10 encontrarás soluciones.",
+  	"text2": "Administración de fincas con transparencia y rigor. SU COMUNIDAD EN BUENAS MANOS."
   },
 
   "cucerodi": {
-  	"index": "Les damos la bienvenida a nuestra página web, en la que, encontrará toda la información que necesiten acerca de nuestras actividades.",
-    "welcome": "Entre los objetivos generales de 41CERO10 ASESORES está la de participar y potenciar el desarrollo de la economía social. Ofrecemos un servicio de alta calidad a un precio muy competitivo y personalizado, eso sólo es posible gracias al esfuerzo de los profesionales de la empresa y a las ganas de superación de todos los empleados que la integran. Además, con la garantía de que toda su información será tratada con absoluta confidencialidad. Para nosotros todos nuestros clientes son importantes. Por eso, en nuestro despacho, damos un servicio directo y personalizado a todos ellos, desde nuestros autónomos hasta las pequeñas y medianas empresas. Los profesionales que integran 41CERO10 apuestan por su formación permanente para poder así prestar un mayor y mejor servicio.",
+  	"index": "Ofrecemos un servicio de alta calidad EN ASESORÍA Y ADMIN. DE FINCAS a precios competitivos y personalizados.",
+    "welcome": "Damos un servicio directo y personalizado a todos nuestros clientes: comunidades, autónomos y pequeñas y medianas empresas (PYMES). Para ello los profesionales que integramos 41CERO10 apostamos por una formación permanente y colegiación para poder así prestar un mayor y mejor servicio.",
   	"button1": "Ofertas",
   	"button2": "Área privada",
   	"services": "Servicios",
@@ -24,6 +24,12 @@
   	"ser_contable": "Asesoría Contable",
   	"ser_otros": "Otros servicios",
   	"localizacion": "Nos encontramos situados en una zona estratégica dentro de la ciudad de Sevilla, en el barrio de Triana, junto a República Argentina, a unos 20mts del Colegio Maristas de Sevilla. Con una gran comunicación de servicios públicos, a sólo 100mts de la salida del metro de Plaza de Cuba."
+  },
+
+  "asesoria": {
+  	"services": "Presupuesto sin compromiso",
+  	"title": "Asesoramiento y gestión integral de su negocio.",
+  	"info": "Entre los objetivos principales de 41CERO10 está la de participar y potenciar el desarrollo de la economía social."
   },
 
   "cucerodi-loc": {
@@ -38,35 +44,34 @@
   "fiscal": {
   	"ser1": "Fiscalidad de PYMES y autónomos",
   	"ser2": "IVA, Impuestos sobre sociedades",
-  	"ser3": "IRPF, Impuestos sobre las personas físicas",
+  	"ser3": "Impuestos sobre las personas físicas (IRPF)",
   	"ser4": "Asistencia técnica ante inspecciones de Hacienda"
   },
 
   "laboral": {
-  	"ser1": "Confección de nóminas",
-  	"ser2": "Cotizaciones de la Seguridad Social",
-  	"ser3": "Contratos. Partes del Altas y Bajas",
-  	"ser4": "Liquidaciones y Finiquitos"
+  	"ser1": "Confección de nóminas y seguros sociales",
+  	"ser2": "Contratos. Partes del Altas y Bajas",
+  	"ser3": "Liquidaciones y Finiquitos"
   },
 
   "contable": {
   	"ser1": "Contabilidad Analítica",
   	"ser2": "Contabilidad Financiera",
-  	"ser3": "Actualización de contabilidades atrasadas",
-  	"ser4": "Confección y Análisis de Balance"
+  	"ser3": "Confección y Análisis de Balance"
   },
 
   "otros": {
   	"ser1": "Tramitaciones de Subvenciones",
-  	"ser2": "Creaciones de empresas, Cooperativas, Altas de autónomos…",
-  	"ser3": "Informes periciales",
-  	"ser4": "Administraciones de Fincas",
-  	"ser5": "LOPD"
+  	"ser2": "Constitución de empresas, cooperativas y asociaciones",
+  	"ser3": "Alta y baja de autónomos",
+  	"ser4": "Informes periciales",
+  	"ser5": "Seguros",
+  	"ser6": "Ley Orgánica de Protección de Datos (LOPD)"
   },
 
   "gesficom": {
     "index": "La mejor gestión para su comunidad.",
-    "welcome": "Excelentes servicios a un precio sin competencia. Somos una empresa cuyo objetivo es gestionar a buen precio su comunidad de propietarios y en definitiva, hacerte la vida más fácil. A través de nuestra página web puede acceder a la cuenta de su comunidad y a todas sus actas y documentos. Así, con las cuentas claras, ahorrando en recursos humanos y con una herramienta informática que nosotros le facilitamos, tendrá el control en tiempo real y la garantía de la transparencia de la cuenta comunitaria.",
+    "welcome": "Nuestro conocimiento unido a la aplicación de las nuevas tecnologías nos hace ser un equipo humano imprescindible para su Comunidad, con una gestión ágil, transparente y responsable.",
     "button1": "Solicita tu presupuesto",
     "button2": "Accede a tu comunidad",
     "services": "Servicios",
@@ -74,7 +79,7 @@
     "como": "¿Cómo?",
     "despacho": "Despacho online",
     "ser_otros": "Otros servicios",
-    "despachoinfo": "Todos los propietarios registrados en nuestra web podrán conocer en tiempo real el estado de la comunidad, consultar o descargar informes de ingresos y gastos de su comunidad, dispondrán de formularios para notificarnos cualquier avería o incidencia detectada en su comunidad y podrán notificarnos el cambio de domiciliación de recibos con tres días de antelación a la realización del mismo.",
+    "despachoinfo": "Todos los propietarios registrados en nuestra web podrán conocer en tiempo real el estado de la Comunidad, consultar o descargar informes de ingresos y gastos, dispondrán de formularios para notificarnos cualquier avería o incidencia detectada igualmente podrán notificarnos el cambio de domiciliación de recibos.",
     "comoinfo": "Estudiamos sus costes actuales y renegociamos o sustituimos los proveedores. Servicios Web -¡Online 24 horas! Exclusivo para los propietarios.",
  	"fincas_ser1": "Constituimos la Comunidad de vecinos",
  	"fincas_ser2": "Legalizamos del Libro de Actas",
@@ -124,19 +129,12 @@
   },
 
   "testimonials": {
-  	"title": "¿Qué dicen nuestros clientes?"
-  },
-
-  "precios": {
-  	"title": "Precios"
-  },
-
-  "equipo": {
-  	"title": "¿Quiénes somos?"
-  },
-
-  "clientes": {
-  	"title": "Nuestros clientes"
+  	"title": "¿Qué dicen nuestros clientes?",
+  	"test1": "\"Gestión de incidencias rápidas y eficientes de mi comunidad\"",
+  	"test2": "\"“Han conseguido una reducción en los presupuestos y disminución de las cuotas en nuestra comunidad\"",
+  	"test3": "\"Estoy encantado con el trato personalizado que tienen con mi empresa\"",
+  	"test4": "\"Han conseguido que pueda despreocuparme de todo el papeleo y me pueda centrar en mi actividad empresarial\"",
+  	"test_emp": "Nombre de la empresa"
   },
 
   "contacto": {
