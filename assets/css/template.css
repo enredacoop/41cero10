@@ -5906,7 +5906,7 @@ img {
 }
 .section-slide .item {
     text-align: center;
-    padding: 60px 0;
+   
     left: 0!important;
     -webkit-transition: opacity .5s;
     transition: opacity .5s;
@@ -6460,7 +6460,7 @@ background: none;
 
 
 ul.servicelist {
-    padding: 10px;
+    padding: 20px;
     text-align: left;
     list-style-type: circle;
 }
@@ -6485,12 +6485,14 @@ ul.servicelist {
 }
 
 p.text-slide {
-    color: white;
-    font-size: 20px;
-    background-color: rgb(3, 136, 183);
+        color: white;
+    font-size: xx-large;
     margin-top: 15%;
     margin-bottom: 15%;
     line-height: 1.2;
+    padding: 20px;
+        font-family: Sans-serif;
+    
 }
 
 @media (max-width:995px) {
@@ -6499,3 +6501,26 @@ p.text-slide {
     }
 }
 
+.slidebox {
+     background-color: rgb(3, 136, 183);
+     opacity: 0.95;
+     display: block;
+}
+
+p.text-slide span {
+    display: block;
+}
+
+.carousel .container {
+   height: 500px;
+}
+.main-action {
+    padding-top: 30px;
+}
+
+.btn-center {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding-left: 30%;
+    padding-right: 30%;
+}

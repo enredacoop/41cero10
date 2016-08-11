@@ -9,8 +9,11 @@
   },
 
   "slide": {
-  	"text1": "Asesoramiento y gestión integral de su negocio. ¿Quieres estar tranquilo con Hacienda y Seguridad Social? En 41CERO10 encontrarás soluciones.",
-  	"text2": "Administración de fincas con transparencia y rigor. SU COMUNIDAD EN BUENAS MANOS."
+  	"text1a": "Asesoramiento y gestión integral de su negocio",
+    "text1b": "¿Quieres estar tranquilo con Hacienda y Seguridad Social?",
+    "text1c": "En 41CERO10 encontrarás soluciones",
+  	"text2a": "Administración de fincas con transparencia y rigor",
+    "text2b": "SU COMUNIDAD EN BUENAS MANOS."
   },
 
   "cucerodi": {

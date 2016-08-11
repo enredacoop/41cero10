@@ -62,11 +62,11 @@
 
         <section id="carousel-1" class="carousel slide section-slide" data-ride="carousel">
           <div class="carousel-inner">
-            <div class="item active" style="background: url(images/bg-1.jpg);">
-              <div class="container"><p class="text-slide" data-i18n="slide.text1"></p></div>
+            <div class="item active" style="background: url(images/bg-3.jpg);">
+              <div class="container"><span class="slidebox"><p class="text-slide"><span data-i18n="slide.text1a"></span><span data-i18n="slide.text1b"></span><b><span data-i18n="slide.text1c"></span></b></p></span></div>
             </div>
-            <div class="item" style="background: url(images/bg-2.jpg);">
-              <div class="container"><p class="text-slide" data-i18n="slide.text2"></p></div>
+            <div class="item" style="background: url(images/bg-1.jpg);">
+              <div class="container"><span class="slidebox"><p class="text-slide"><span data-i18n="slide.text2a"></span><b><span data-i18n="slide.text2b"></span></b></p></span></div>
             </div>
             <!--<div class="item" style="background: url(images/bg-3.jpg);">
               <div class="container"><img src="http://placehold.it/640x340" alt="Third slide"></div>
@@ -79,20 +79,16 @@
         <section id="41cero10" class="cerodiez section section-center section-cta">
           <div class="container">
             <h1 class="section-title"><span><img src="images/41cero10b.png"></span></h1>
-            <h4 data-i18n="cucerodi.index"></h4>
-            <p data-i18n="cucerodi.welcome"></p>
-            <div class="main-action row">
-              <div class="col-md-3 col-md-offset-3 col-sm-4 col-sm-offset-2"><a href="#pricing" class="smooth-scroll btn btn-lg btn-block btn-danger" data-i18n="cucerodi.button1"></a></div>
-              <div class="col-md-3 col-sm-4"><a href="#portfolio" class="smooth-scroll btn btn-lg btn-block btn-default" data-i18n="cucerodi.button2"></a></div>
-            </div>
+            <h3 data-i18n="cucerodi.index"></h3>
+            <h4 data-i18n="cucerodi.welcome"></h4>
           </div>
         </section>
 
         <section id="services" class="section section-hilite section-center section-features">
           <div class="container">
             <h1 class="section-title"><span><img src="images/41cero10_asesoriab.png"></span></h1>
-            <h4 data-i18n="asesoria.title"></h4>
-            <p data-i18n="asesoria.info"></p>
+            <h3 data-i18n="asesoria.title"></h3>
+            <h4 data-i18n="asesoria.info"></h4>
         </div>
         </section>
         <section class="section section-hilite section-features">
@@ -144,7 +140,10 @@
                 </ul>
               </div>
             </div>
-            <h2 class="section-title"><span data-i18n="asesoria.services"></span></h2>
+
+            <div class="row btn-center" >
+              <div class=""><a href="#contact" class="smooth-scroll btn btn-lg btn-block btn-danger" data-i18n="asesoria.services"></a></div>
+            </div>
 
           </div>
         </section>
@@ -153,10 +152,10 @@
         <section id="gesficom" class="section section-center section-cta">
           <div class="container">
             <h1 class="section-title"><span><img src="images/41cero10_admin.png"></span></h1>
-            <h4 data-i18n="gesficom.index"></h4>
-            <p data-i18n="gesficom.welcome"></p>
+            <h3 data-i18n="gesficom.index"></h3>
+            <h4 data-i18n="gesficom.welcome"></h4>
             <div class="row" >
-              <div class="col-md-8 col-sm-6">
+              <div class="col-md-6 col-sm-6">
                 <h3 data-i18n="gesficom.fincas"></h3>
                 <ul class="servicelist">
                   <li data-i18n="gesficom.fincas_ser1"></li>
@@ -168,151 +167,27 @@
                   <li data-i18n="gesficom.fincas_ser7"></li>
                   <li data-i18n="gesficom.fincas_ser8"></li>
                 </ul>
-                <a href="presupuesto_gesficom.html" class="smooth-scroll btn btn-lg btn-block btn-danger" data-i18n="gesficom.button1"></a>
+              
               </div>
 
-              <div class="col-md-4 col-sm-4">
+              <div class="col-md-6 col-sm-4">
                 <h3 data-i18n="gesficom.despacho"></h3>
-                  <p data-i18n="gesficom.despachoinfo"></p>
-                  <a href="acceso_gesficom.html" class="smooth-scroll btn btn-lg btn-block btn-default" data-i18n="gesficom.button2"></a>
+                  <p data-i18n="gesficom.despachoinfo" style="text-align: justify;"></p>
+
               </div>
-            </div>      
+            </div>  
+            <div class="row">
+              <div class="col-md-6 col-sm-6">
+                  <a href="presupuesto_gesficom.html" class="smooth-scroll btn btn-lg btn-block btn-danger" data-i18n="gesficom.button1"></a>
+              </div>
+              <div class="col-md-6 col-sm-6">
+                   <a href="acceso_gesficom.html" class="smooth-scroll btn btn-lg btn-block btn-default" data-i18n="gesficom.button2"></a>
+              </div>
+            </div>
           </div>
         </section>
 
-<!--        <section id="portfolio" class="section section-portfolio">
-          <div class="container">
-            <h2 class="section-title"><span>Recent Works.</span></h2>
-            <ul id="filters">
-              <li><a href="#" data-filter="*">All</a></li>
-              <li>/</li>
-              <li><a href="#" data-filter=".web">Web Design</a></li>
-              <li>/</li>
-              <li><a href="#" data-filter=".graphic">Graphic Design</a></li>
-              <li>/</li>
-              <li><a href="#" data-filter=".photography">Photography</a></li>
-              <li>/</li>
-              <li><a href="#" data-filter=".motion">Motion Graphics</a></li>
-              <li>/</li>
-              <li><a href="#" data-filter=".branding">Branding</a></li>
-            </ul>
 
-            <div class="portfolio-isotope row">
-              <article class="col-md-3 col-sm-6 portfolio-item branding photography web">
-                <div class="entry-thumbnail">
-                  <a href="#" class="hover-effect" data-toggle="modal" data-target="#project-modal">
-                    <img src="http://placehold.it/400x300" alt="" />
-                    <span class="overlay"><i class="fa fa-plus"></i></span>
-                  </a>
-                </div>
-              </article>
-              <article class="col-md-3 col-sm-6 portfolio-item motion graphic">
-                <div class="entry-thumbnail">
-                  <a href="#" class="hover-effect" data-toggle="modal" data-target="#project-modal">
-                    <img src="http://placehold.it/400x300" alt="" />
-                    <span class="overlay"><i class="fa fa-plus"></i></span>
-                  </a>
-                </div>
-              </article>
-              <article class="col-md-3 col-sm-6 portfolio-item branding web">
-                <div class="entry-thumbnail">
-                  <a href="#" class="hover-effect" data-toggle="modal" data-target="#project-modal">
-                    <img src="http://placehold.it/400x300" alt="" />
-                    <span class="overlay"><i class="fa fa-plus"></i></span>
-                  </a>
-                </div>
-              </article>
-              <article class="col-md-3 col-sm-6 portfolio-item photography graphic">
-                <div class="entry-thumbnail">
-                  <a href="#" class="hover-effect" data-toggle="modal" data-target="#project-modal">
-                    <img src="http://placehold.it/400x300" alt="" />
-                    <span class="overlay"><i class="fa fa-plus"></i></span>
-                  </a>
-                </div>
-              </article>
-              <article class="col-md-3 col-sm-6 portfolio-item motion web">
-                <div class="entry-thumbnail">
-                  <a href="#" class="hover-effect" data-toggle="modal" data-target="#project-modal">
-                    <img src="http://placehold.it/400x300" alt="" />
-                    <span class="overlay"><i class="fa fa-plus"></i></span>
-                  </a>
-                </div>
-              </article>
-              <article class="col-md-3 col-sm-6 portfolio-item branding graphic">
-                <div class="entry-thumbnail">
-                  <a href="#" class="hover-effect" data-toggle="modal" data-target="#project-modal">
-                    <img src="http://placehold.it/400x300" alt="" />
-                    <span class="overlay"><i class="fa fa-plus"></i></span>
-                  </a>
-                </div>
-              </article>
-              <article class="col-md-3 col-sm-6 portfolio-item motion photography web">
-                <div class="entry-thumbnail">
-                  <a href="#" class="hover-effect" data-toggle="modal" data-target="#project-modal">
-                    <img src="http://placehold.it/400x300" alt="" />
-                    <span class="overlay"><i class="fa fa-plus"></i></span>
-                  </a>
-                </div>
-              </article>
-              <article class="col-md-3 col-sm-6 portfolio-item photography motion branding graphic">
-                <div class="entry-thumbnail">
-                  <a href="#" class="hover-effect" data-toggle="modal" data-target="#project-modal">
-                    <img src="http://placehold.it/400x300" alt="" />
-                    <span class="overlay"><i class="fa fa-plus"></i></span>
-                  </a>
-                </div>
-              </article>
-            </div>
-
-          </div>
-        </section> -->
-
-        <!-- Project Modal -->
-<!--        <div class="modal fade" id="project-modal" tabindex="-1" role="dialog" aria-labelledby="project-modal-label" aria-hidden="true">
-          <div class="modal-dialog">
-
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title" id="project-modal-label">Project title</h4>
-              </div>
-              <div class="modal-body">
-                <article class="single-project">
-                  <div class="project-thumbnail">
-                    <div id="project-thumbnail-carousel-1" class="carousel slide" data-ride="carousel">
-                      <div class="carousel-inner">
-                        <div class="item active"><img src="http://placehold.it/800x600" /></div>
-                        <div class="item"><img src="http://placehold.it/800x600" /></div>
-                        <div class="item"><img src="http://placehold.it/800x600" /></div>
-                      </div>
-                      <ol class="carousel-indicators">
-                        <li data-target="#project-thumbnail-carousel-1" data-slide-to="0" class="active"></li>
-                        <li data-target="#project-thumbnail-carousel-1" data-slide-to="1"></li>
-                        <li data-target="#project-thumbnail-carousel-1" data-slide-to="2"></li>
-                      </ol>
-                      <a class="left carousel-control" href="#project-thumbnail-carousel-1" data-slide="prev"><span class="fa fa-chevron-left"></span></a>
-                      <a class="right carousel-control" href="#project-thumbnail-carousel-1" data-slide="next"><span class="fa fa-chevron-right"></span></a>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-md-4">
-                      <button type="button" class="btn btn-block btn-primary">Launch Project</button>
-                      <ul class="list-unstyled project-info">
-                        <li><strong>Type</strong> <span class="pull-right">Web Design</span></li>
-                        <li><strong>Client</strong> <span class="pull-right">Google</span></li>
-                        <li><strong>Year</strong> <span class="pull-right">2014</span></li>
-                      </ul>
-                    </div>
-                    <div class="col-md-8">
-                      <p>Suspendisse varius nisl nunc. Aenean in dictum nibh. Nullam congue facilisis purus porta ullamcorper. Aenean in consequat sapien. Cras orci augue, ultricies at luctus congue, dapibus sed magna. Vivamus consequat commodo pharetra. Maecenas sed tincidunt mi, quis accumsan nisi. Praesent ac porttitor massa. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur in bibendum tellus, vitae imperdiet mauris.</p>
-                    </div>
-                  </div>
-                </article>
-              </div>
-            </div>
-
-          </div>
-        </div> -->
 
         <section id="testimonials" class="section section-center section-hilite section-testimonial">
           <div class="container">
@@ -357,62 +232,10 @@
           </div>
         </section>
 
-<!--        <section id="blog" class="section section-hilite section-blog">
-          <div class="container">
-            <h2 class="section-title"><span>Our Blog</span></h2>
-            <div class="row">
-              <div class="col-md-6">
-                <article class="hentry post">
-                  <div class="row">
-                    <div class="entry-thumbnail col-lg-4 col-md-5 col-sm-4">
-                      <a href="#" class="hover-effect">
-                        <img src="http://placehold.it/165x165" alt="" />
-                        <span class="overlay"><i class="fa fa-plus"></i></span>
-                      </a>
-                    </div>
-                    <div class="col-lg-8 col-md-7 col-sm-8">
-                      <header class="entry-header">
-                        <h2 class="entry-title"><a href="#">Sample blog title</a></h2>
-                        <div class="entry-meta">By <a href="#">Jackie Lord</a> in <a href="#">Category</a></div>
-                      </header>
-                      <div class="entry-content">
-                        <p>Pellentesque eleifend amet scelerisque convallis. Aenean eget metus non erat suscipit accumsan.</p>
-                        <a href="#" class="more"><span class="btn btn-primary">Continue Reading</span></a>
-                      </div>
-                    </div>
-                  </div>
-                </article>
-              </div>
-              <div class="col-md-6">
-                <article class="hentry post">
-                  <div class="row">
-                    <div class="entry-thumbnail col-lg-4 col-md-5 col-sm-4">
-                      <a href="#" class="hover-effect">
-                        <img src="http://placehold.it/165x165" alt="" />
-                        <span class="overlay"><i class="fa fa-plus"></i></span>
-                      </a>
-                    </div>
-                    <div class="col-lg-8 col-md-7 col-sm-8">
-                      <header class="entry-header">
-                        <h2 class="entry-title"><a href="#">Sample blog title</a></h2>
-                        <div class="entry-meta">By <a href="#">Jackie Lord</a> in <a href="#">Category</a></div>
-                      </header>
-                      <div class="entry-content">
-                        <p>Pellentesque eleifend amet scelerisque convallis. Aenean eget metus non erat suscipit accumsan.</p>
-                        <a href="#" class="more"><span class="btn btn-primary">Continue Reading</span></a>
-                      </div>
-                    </div>
-                  </div>
-                </article>
-              </div>
-            </div>
-          </div>
-        </section> -->
-
         <section id="contact" class="section section-center section-contact">
           <div class="container">
             <h2 class="section-title"><span data-i18n="contacto.title"></span></h2>
-            <p data-i18n="contacto.info"></p>
+            <h4 data-i18n="contacto.info"></h4>
             <div class="main-action">
               <form method="post" id="contactform">
                 <div class="results"></div>
