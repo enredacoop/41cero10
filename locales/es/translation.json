@@ -41,7 +41,7 @@
 	"phone": "955 311 901",
 	"email": "info@41cero10.org",
 	"about": "Sobre nosotros",
-	"aboutinfo": "41CERO10 ASESORES es una gestoría y asesoría contable, fiscal y laboral, que presta sus servicios a entidades de economía social (cooperativas, sociedades laborales, organizaciones sin fines de lucro), autónomos y PYMES y emprendedores y particulares."
+	"aboutinfo": "41CERO10 ASESORES es una gestoría y asesoría fiscal, contable y laboral además de administración de fincas que presta sus servicios a entidades de economía social (cooperativas, sociedades laborales, organizaciones sin fines de lucro), autónomos, PYMES y comunidades de vecinos."
   },
 
   "fiscal": {
@@ -84,15 +84,12 @@
     "ser_otros": "Otros servicios",
     "despachoinfo": "Todos los propietarios registrados en nuestra web podrán conocer en tiempo real el estado de la Comunidad, consultar o descargar informes de ingresos y gastos, dispondrán de formularios para notificarnos cualquier avería o incidencia detectada igualmente podrán notificarnos el cambio de domiciliación de recibos.",
     "comoinfo": "Estudiamos sus costes actuales y renegociamos o sustituimos los proveedores. Servicios Web -¡Online 24 horas! Exclusivo para los propietarios.",
- 	"fincas_ser1": "Constituimos la Comunidad de vecinos",
- 	"fincas_ser2": "Legalizamos del Libro de Actas",
- 	"fincas_ser3": "Emitimos y gestionamos los recibos mensuales",
- 	"fincas_ser4": "Pueden consultar online el estado de las cuentas y registro de incidencias las 24 horas del día",
- 	"fincas_ser5": "Redactamos y enviamos las Actas de las Juntas de la Comunidad a todos los propietarios",
- 	"fincas_ser6": "Administramos las nóminas y seguros sociales de los empleados de la comunidad",
- 	"fincas_ser7": "Tramitamos y solucionamos los siniestros mediante un seguimiento continuo",
- 	"fincas_ser8": "Asesoramos sobre el Certificado de Eficiencia Energética (Obligatorio desde el 1 de junio para pisos en venta y alquiler"
-
+ 	"fincas_ser1": "Velar por el buen funcionamiento de la Comunidad, sus instalaciones y servicios",
+ 	"fincas_ser2": "Preparar y someter a la Junta de Propietarios el plan de gastos previsibles, proponiendo los medios necesarios para hacer frente a los mismos",
+ 	"fincas_ser3": "Atender a la conservación de la Comunidad ejecutando los acuerdos adoptados",
+ 	"fincas_ser4": "Gestión integral de cobros y pagos",
+ 	"fincas_ser5": "Actuar como secretario de la Junta y custodiar, a disposición de los titulares, la documentación de la Comunidad",
+ 	"fincas_ser6": "Todas las demás atribuciones que se confieran en Junta"
   },
 
   "gesficom-loc": {
