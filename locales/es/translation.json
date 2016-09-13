@@ -130,11 +130,10 @@
 
   "testimonials": {
   	"title": "¿Qué dicen nuestros clientes?",
-  	"test1": "\"Gestión de incidencias rápidas y eficientes de mi comunidad\"",
-  	"test2": "\"“Han conseguido una reducción en los presupuestos y disminución de las cuotas en nuestra comunidad\"",
+  	"test1": "\"Los considero muy profesionales, pues siempre están atentos a los detalles y dispuestos a colaborar de manera inmediata ante cualquier imprevisto o urgencia. Destacaría, además, su amabilidad y simpatía en el trato. Recomiendo el trabajo con ellos, sin duda\"",
+  	"test2": "\"Desde que trabajamos con ellos estamos mucho más tranquilos y nos han ayudado muchísimo con todas las cuestiones que hemos tenido que afrontar.Sin duda son los más profesionales y a la vez más cercanos con los que hemos trabajado. Los recomendamos sin duda. \"",
   	"test3": "\"Estoy encantado con el trato personalizado que tienen con mi empresa\"",
-  	"test4": "\"Han conseguido que pueda despreocuparme de todo el papeleo y me pueda centrar en mi actividad empresarial\"",
-  	"test_emp": "Nombre de la empresa"
+  	"test4": "\"Han conseguido que pueda despreocuparme de todo el papeleo y me pueda centrar en mi actividad empresarial\""
   },
 
   "contacto": {
