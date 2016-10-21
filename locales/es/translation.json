@@ -19,14 +19,10 @@
   "cucerodi": {
   	"index": "Ofrecemos un servicio de alta calidad en asesoría y administración de fincas a precios competitivos y personalizados.",
     "welcome": "Damos un servicio directo y personalizado a todos nuestros clientes: comunidades, autónomos y pequeñas y medianas empresas (PYMES). Para ello los profesionales que integramos 41CERO10 apostamos por una formación permanente y colegiación para poder así prestar un mayor y mejor servicio.",
-  	"button1": "Ofertas",
-  	"button2": "Área privada",
-  	"services": "Servicios",
   	"ser_fiscal": "Asesoría Fiscal",
   	"ser_laboral": "Asesoría Laboral",
   	"ser_contable": "Asesoría Contable",
-  	"ser_otros": "Otros servicios",
-  	"localizacion": "Nos encontramos situados en una zona estratégica dentro de la ciudad de Sevilla, en el barrio de Triana, junto a República Argentina, a unos 20mts del Colegio Maristas de Sevilla. Con una gran comunicación de servicios públicos, a sólo 100mts de la salida del metro de Plaza de Cuba."
+  	"ser_otros": "Otros servicios"
   },
 
   "asesoria": {
@@ -79,11 +75,8 @@
     "button2": "Accede a tu comunidad",
     "services": "Servicios",
     "fincas": "Servicios de administración de fincas",
-    "como": "¿Cómo?",
     "despacho": "Despacho online",
-    "ser_otros": "Otros servicios",
     "despachoinfo": "Todos los propietarios registrados en nuestra web podrán conocer en tiempo real el estado de la Comunidad, consultar o descargar informes de ingresos y gastos, dispondrán de formularios para notificarnos cualquier avería o incidencia detectada igualmente podrán notificarnos el cambio de domiciliación de recibos.",
-    "comoinfo": "Estudiamos sus costes actuales y renegociamos o sustituimos los proveedores. Servicios Web -¡Online 24 horas! Exclusivo para los propietarios.",
  	"fincas_ser1": "Velar por el buen funcionamiento de la Comunidad, sus instalaciones y servicios",
  	"fincas_ser2": "Preparar y someter a la Junta de Propietarios el plan de gastos previsibles, proponiendo los medios necesarios para hacer frente a los mismos",
  	"fincas_ser3": "Atender a la conservación de la Comunidad ejecutando los acuerdos adoptados",
@@ -92,12 +85,6 @@
  	"fincas_ser6": "Todas las demás atribuciones que se confieran en Junta"
   },
 
-  "gesficom-loc": {
-  	"title": "Contacta con nosotros",
-  	"name": "Calle Gabriela Sánchez Aranda, 5A-Local, 41010 Sevilla",
-	"phone": "615 92 05 01",
-	"email": "administracion@gesficom.com"
-  },
 
   "gesficom-acceso": {
  	"title": "Zona de acceso a su comunidad",
