@@ -130,5 +130,23 @@
   	"name": "Nombre",
   	"email": "Correo electrónico",
   	"send": "Enviar"
-  }
+  },
+  "landing": {
+    "info": "Una de las especialidades del grupo que integra 41Cero10 Asesores S.L.L. es la gestión del tercer sector. Según la Ley 5/2011, de 29 de marzo, el tercer sector se denomina como el conjunto de las actividades económicas y empresariales, que en el ámbito privado llevan a cabo aquellas entidades que persiguen bien el interés colectivo de sus integrantes, bien el interés general económico o social, o ambos.",
+    "info2": "Las principales entidades integrantes de la economía social son: las cooperativas, las asociaciones que lleven a cabo actividad económica y las sociedades laborales.",
+    "coop": "Cooperativas",
+    "coop1": "El capital social mínimo vendrá establecido por los socios enlos estatutos. Art. 54 LEY 14/2011, de 23 de diciembre, de Sociedades Cooperativas Andaluzas.",
+    "coop2": "Mínimo 3 socios",
+    "coop3": "La responsabilidad será limitada y ningún socio podrá tener más de la tercera parte del capital",
+    "society": "Sociedad Limitada Laboral",
+    "society1": "Capital social de 3.000 €",
+    "society2": "Mínimo 3 socios",
+    "society3": "Ningún socio puede poseer más del de una tercera partedel capital social. Más del 50% del capital tiene que pertenecer a socios trabajadores",
+    "asociation": "Asociaciones",
+    "asociation1": "El capital social mínimo vendrá establecido por los socios en los estatutos",
+    "asociation2": "Mínimo 3 personas",
+    "asociation3": "Las asociaciones tendrán, al menos, los siguientes órganos:",
+    "asociation4": "La Asamblea General",
+    "asociation5": "Un órgano de representación"
+  }  
 }

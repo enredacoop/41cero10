@@ -5066,6 +5066,7 @@ button.close {
 .modal-body {
     position: relative;
     padding: 20px;
+    margin-bottom:25px;
 }
 .modal-footer {
     margin-top: 15px;
