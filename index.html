@@ -25,29 +25,19 @@
   <body>
     <div id="page">
         <header id="header" class="site-header">
-        <nav id="topbar" class="site-topbar ">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-6">
-              </div>
-            </div>
-          </div>
-        </nav>
 
         <nav id="navbar" class="site-navbar navbar navbar-static-top one-page-nav" role="navigation">
           <div class="container">
             <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <i class="fa fa-bars"></i>
-              </button>
               <h1 class="navbar-brand"><a href="index.html"><img src="images/41cero10.png" alt="41cero10 logo"></a></h1>
             </div>
           </div>
         </nav>
       </header>
       <main id="main" class="site-main">
-        
+        <section>
+          <h2 style="color: #3498db;font-size: 40px;">Web en proceso de reestructuración</h2>
+        </section>
       </main>
     </div>
 
@@ -74,26 +64,26 @@
     }(document, 'script', 'facebook-jssdk'));</script>
 
   <script>
-  var myform = $("form#contactform");
-  myform.submit(function(event){
-  event.preventDefault();
+    var myform = $("form#contactform");
+    myform.submit(function(event){
+    event.preventDefault();
 
-  // Change to your service ID, or keep using the default service
-  var service_id = "default_service";
-  var template_id = "contact";
+    // Change to your service ID, or keep using the default service
+    var service_id = "default_service";
+    var template_id = "contact";
 
-  myform.find("button").text("Sending...");
-  emailjs.sendForm(service_id,template_id,"contactform")
-    .then(function(){ 
-      alert("Sent!");
-       myform.find("button").text("Send");
-    }, function(err) {
-       alert("Send email failed!\r\n Response:\n " + JSON.stringify(err));
-       myform.find("button").text("Send");
-    });
-  return false;
-});
-</script>
+    myform.find("button").text("Sending...");
+    emailjs.sendForm(service_id,template_id,"contactform")
+      .then(function(){ 
+        alert("Sent!");
+        myform.find("button").text("Send");
+      }, function(err) {
+        alert("Send email failed!\r\n Response:\n " + JSON.stringify(err));
+        myform.find("button").text("Send");
+      });
+    return false;
+  });
+  </script>
 
   </body>
 </html>
